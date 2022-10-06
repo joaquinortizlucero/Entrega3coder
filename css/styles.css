@@ -1,7 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
-    box-sizing: ;
+    box-sizing: border-box;
 }
 
 
@@ -18,7 +18,15 @@
 
 
 .navbar-toggler{
-    background-color: #ffffff !important  ;
+    background-color: #ffffff 
+}
+
+
+.navbar{
+    
+    -ms-flex-align: ;
+    flex-wrap:nowrap
+    
 }
 
 
@@ -36,6 +44,5 @@
 .c-blanco{
     color: white;
 }
-
 
 
