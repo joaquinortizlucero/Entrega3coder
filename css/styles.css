@@ -2,7 +2,30 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family:  Helvetica, sans-serif;
 }
+
+.seccion-portada {
+    background-image: url(../assets/foto\ psicodelia.bmp);
+    height: 40vh; 
+    color: white;
+   display: flex;
+   justify-content: center;
+   align-items: baseline;
+
+   
+}
+
+.section-portada__titulo{
+  padding-top: 150px;
+    font-size: 2rem;
+}
+
+
+@media(min-width:768px){
+    .seccion-portada
+    }
+
 
 
 
@@ -24,7 +47,7 @@
 
 .navbar{
     
-    -ms-flex-align: ;
+    
     flex-wrap:nowrap
     
 }
@@ -45,4 +68,15 @@
     color: white;
 }
 
+.seccion__nosotros{
+    margin: 50px auto;
+}
+.btn-lg {
+    margin: 15px;
+}
+
+.h3 {
+margin-top: 0;
+
+}
 
